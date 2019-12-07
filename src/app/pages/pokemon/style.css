@@ -1,0 +1,33 @@
+.imagesRow{
+    flex-direction: row;
+    display: flex;
+}
+
+.imageHolder{
+    flex:1;
+}
+
+.row{
+    flex-direction: row;    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);    
+}
+
+.col{
+    display: table-cell;
+    grid-column: span 6;
+    padding: 10px;
+    position:relative;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.experienceHolder{
+    padding: 10px;    
+    border-radius: 5px;
+}
+
